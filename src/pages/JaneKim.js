@@ -21,7 +21,12 @@ class JaneKim extends Component {
 				          		<img className="mayor-photo" /> 
 				          	</div>
 				          	<div className="col s8 mayor-info">
-				          		Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length.
+                              < p > < strong >Age: </strong>  40 </p >
+                              <p> <strong>Hometown:</strong> New York City </p>
+                              <p> <strong>Lived in San Francisco since: </strong> 1999</p>
+                              <p> <strong>Education: </strong>  B.A. Stanford, J.D. Berkeley School of Law</p>
+                              <p> <strong> Occupation: </strong> San Fancisco Supervisor</p>
+                              <p> <strong> Employer: </strong> City and County of San Francisco</p>
 				          	</div>
 				          </div>
 
