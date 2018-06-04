@@ -8,7 +8,7 @@ class JaneKim extends Component {
                <div className="candidates">
 					<Link to="/londonbreed"><img className='user-photo' /></Link>
 					<Link to="/janekim"><img className='user-photo' /></Link>
-					<Link to="/londonbreed"><img className='user-photo' /></Link>
+					<Link to="/markleonard"><img className='user-photo' /></Link>
 				</div>
 
 				<div className="row">

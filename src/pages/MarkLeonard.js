@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import '../styles/london.css';
 
-class LondonBreed extends Component {
-	render() {
-		return (
-			<div>
-				<div className="candidates">
+class MarkLeonard extends Component {
+    render(){
+        return (
+            <div>
+               <div className="candidates">
 					<Link to="/londonbreed"><img className='user-photo' /></Link>
 					<Link to="/janekim"><img className='user-photo' /></Link>
 					<Link to="/markleonard"><img className='user-photo' /></Link>
@@ -16,7 +15,7 @@ class LondonBreed extends Component {
 				    <div className="col s12 m6 offset-m3">
 				      <div className="card blue-grey darken-1">
 				        <div className="card-content white-text">
-				          <span className="card-title center">London Breed</span>
+				          <span className="card-title center">Mark Leonard</span>
 				          <div className="row">
 				          	<div className="col s4">
 				          		<img className="mayor-photo" /> 
@@ -33,9 +32,9 @@ class LondonBreed extends Component {
 				      </div>
 				    </div>
 				</div>
-			</div>
-		);
-	}
+            </div>
+        )
+    }
 }
 
-export default LondonBreed;
+export default MarkLeonard;
