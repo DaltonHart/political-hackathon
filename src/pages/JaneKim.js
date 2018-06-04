@@ -32,8 +32,13 @@ class JaneKim extends Component {
 
 				        </div>
 				        <div className="card-action">
+                            <h4> TRANSPORTATION </h4>
 				         	<p>Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length.</p>
 				        </div>
+                        <div> 
+                            <h4> HOMELESSNESS </h4> 
+                            <p> Would  expand  Behavioral  Health  Court,  which  steers  mentally  ill  people  and  addicts  into assistance  programs  instead  of  jail.  Proposes  1,500  new  shelter  beds  and  increasing  stock  of affordable  and  supportive  housing  through  actions  including  leasing  units  and  crafting  quick-to-build modular complexes</p>
+                        </div> 
 				      </div>
 				    </div>
 				</div>
