@@ -5,6 +5,8 @@ import Navbar from './pages/Navbar';
 import LondonBreed from './pages/LondonBreed';
 import JaneKim from './pages/JaneKim';
 import MarkLeonard from './pages/MarkLeonard';
+import Overview from './pages/CandidateOverview';
+
 
 class App extends Component {
   render() {
@@ -17,6 +19,7 @@ class App extends Component {
             <Route exact path="/londonbreed" component={LondonBreed} />
             <Route exact path="/janekim" component={JaneKim} />
             <Route exact path='/markleonard' component={MarkLeonard} />
+            <Route exact path='/overview' component={Overview} />
           </Switch>
         </div>
       </div>
