@@ -8,9 +8,9 @@ class MarkLeonard extends Component {
         return (
             <div>
                <div className="candidates">
-					<Link to="/londonbreed"><img className='user-photo' src="http://sfbayview.com/wp-content/uploads/2015/01/San-Francisco-Board-of-Supervisors-President-London-Breed-0115.jpg" /></Link>
-					<Link to="/janekim"><img className='user-photo' src="https://asamnews.com/wp-content/uploads/2018/05/jane-kim.jpg" /></Link>
-					<Link to="/markleonard"><img className='user-photo' src="http://www.latimes.com/resizer/xvzU_cve5BOd7ZWlwkbhb2eoy5U=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/HDJJAZDZCBA27DOYQEOANYB25E.jpg" /></Link>
+					<Link to="/londonbreed"><img className='user-photo jane' src="http://sfbayview.com/wp-content/uploads/2015/01/San-Francisco-Board-of-Supervisors-President-London-Breed-0115.jpg" /></Link>
+					<Link to="/janekim"><img className='user-photo jane' src="https://asamnews.com/wp-content/uploads/2018/05/jane-kim.jpg" /></Link>
+					<Link to="/markleonard"><img className='user-photo jane' src="http://www.latimes.com/resizer/xvzU_cve5BOd7ZWlwkbhb2eoy5U=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/HDJJAZDZCBA27DOYQEOANYB25E.jpg" /></Link>
 				</div>
 
 				<div className="row">
@@ -20,7 +20,7 @@ class MarkLeonard extends Component {
 				          <span className="card-title center font"><strong>Mark Leonard</strong></span>
 				          <div className="row">
 				          	<div className="col s4">
-				          		<img className="mayor-photo" src="http://www.latimes.com/resizer/xvzU_cve5BOd7ZWlwkbhb2eoy5U=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/HDJJAZDZCBA27DOYQEOANYB25E.jpg" /> 
+				          		<img className="mayor-photo mark" src="http://www.latimes.com/resizer/xvzU_cve5BOd7ZWlwkbhb2eoy5U=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/HDJJAZDZCBA27DOYQEOANYB25E.jpg" /> 
 				          	</div>
 				          	<div className="col s8 mayor-info font">
 				          		<p><strong>Age:</strong> 66</p>

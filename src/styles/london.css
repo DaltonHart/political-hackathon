@@ -5,16 +5,21 @@
 	border-radius: 50%;
 	margin: 3em 40px;
 }
+
 .candidates {
 	text-align: center;
 }
 .mayor-photo {
 	width: 150px;
 	height: 150px;
-	background: #ccc;
 	border-radius: 50%;
 	margin-top: 2em;
 }
+
+img:hover{
+	border-color: #D6181E
+}
+
 .mayor-info {
 	margin-top: 2em;	
 }
@@ -26,10 +31,14 @@
 	background-color: #0A223E;
 }
 
-.user-photo:hover {
-	border-color: #D6181E;
-}
 
 .continue {
-	background-color: #D6181E
+	background-color: #D6181E;
+}
+
+.jane:hover {
+	border-color: #D6181E;
+	color: #D6181E;
+	border-width: 5em solid;
+	padding: .5em;
 }
