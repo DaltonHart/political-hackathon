@@ -3,6 +3,8 @@ import LandingPage from './pages/LandingPage';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import Navbar from './pages/Navbar';
 import LondonBreed from './pages/LondonBreed';
+import JaneKim from './pages/JaneKim';
+import MarkLeonard from './pages/MarkLeonard';
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/londonbreed" component={LondonBreed} />
+            <Route exact path="/janekim" component={JaneKim} />
+            <Route exact path='/markleonard' component={MarkLeonard} />
           </Switch>
         </div>
       </div>
