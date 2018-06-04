@@ -1,6 +1,6 @@
 .user-photo {
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 	background: #ccc;
 	border-radius: 50%;
 	margin: 3em 40px;
@@ -16,8 +16,20 @@
 	margin-top: 2em;
 }
 .mayor-info {
-	margin-top: 2em;
+	margin-top: 2em;	
+}
+
+.font {
+	font-family: 'Raleway', sans-serif;
 }
 .waves-effect {
 	background-color: #0A223E;
+}
+
+.user-photo:hover {
+	border-color: #D6181E;
+}
+
+.continue {
+	background-color: #D6181E
 }

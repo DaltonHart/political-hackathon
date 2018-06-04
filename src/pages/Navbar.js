@@ -6,7 +6,7 @@ const Navbar = () => {
 	return (
 		<nav>
 		    <div className="nav-wrapper">
-		      <Link to='/'><img className="logo" src="logo.png" /> <a class="brand-logo">BITE SIZE VOTERS</a></Link>
+		      <Link to='/'><img className="logo" src="logo.png" /> <a className="brand-logo">BITE SIZE VOTER</a></Link>
 		    </div>
 		</nav>
 	);
