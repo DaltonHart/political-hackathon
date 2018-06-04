@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/landingPage.css';
-
+import flag from '../styles/flag.png'
 class LandingPage extends Component {
 	render() {
 		return (
@@ -15,11 +15,11 @@ class LandingPage extends Component {
 						daunting and confusing... Here’s everything you need
 						to know about the candidates.</p>
 		            	
-		            	<Link to="/londonbreed"><a class="waves-effect waves-light btn-large">Let's get started</a></Link>
+		            	<Link to="/londonbreed"><a class="waves-effect waves-light light-blue darken-4 btn-large">Let's get started</a></Link>
 		            </div>
 		          </div>
 		          <div className="col s6">
-		            <img className="loadingImg" src="shark.jpg" />
+		            <img className="loadingImg" src={flag} />
 		          </div>
 		        </div>
 		    </div>

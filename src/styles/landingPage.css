@@ -4,11 +4,25 @@
 }
 .homePageInfo {
 	margin-left: -5em;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 .container {
 	height: 100vh;
 }
 .background {
 	background-color: #0A223E;
+}
 
+.loadingImg {
+	width: 250%;
+	height: 250%;
+	margin-left: -15em;
+}
+
+.btn-large {
+	background-color: #106190;
+	color: white;
+	margin-top: 7em;
+	font-family: 'Raleway', sans-serif;
 }
